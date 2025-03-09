@@ -1,0 +1,1007 @@
+ {
+    "page": 1,
+    "pageSize": 100,
+    "total": 185,
+    "data": [
+        {
+            "classification": "Melhoria",
+            "content": "Implementamos a funcionaledade de gerar associações para todos os eventos recebidos pela tecnologia, não mais apenas direção.",
+            "id": 80157,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-03-05T20:37:16.659Z",
+            "title": "ASSOCIAÇÕES",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-5066",
+            "versions": "2025.03.02"
+        },
+        {
+            "classification": "Novidade",
+            "content": "Implementamos a funcionalidade de remover as diárias do dia caso o motorista entre e fique mais de 24 horas na cidade base.",
+            "id": 80266,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-03-04T16:43:06.888Z",
+            "title": "DIÁRIAS",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4956",
+            "versions": "2025.03.02"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos a geração de eventos dentro do tempo de tolerância de macros para gerar a data correta, evitando a geração de eventos com datas finais retroativas.",
+            "id": 80159,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-03-04T16:43:06.857Z",
+            "title": "MANUTENÇÃO DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-5019",
+            "versions": "2025.03.02"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos a exclusão de afastamentos com datas futuras/retroativas, onde não permitia realizar a mesma.",
+            "id": 80161,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-03-03T11:03:21.945Z",
+            "title": "AFASTAMENTOS",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4999",
+            "versions": "2025.03.01"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Ajustamos a impressão do cartão ponto para não exibir a nomeclatura de DSR/afastamentos em um dia que possua informações de diárias.",
+            "id": 80270,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-03-03T11:03:21.402Z",
+            "title": "CARTÃO PONTO",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4896",
+            "versions": "2025.03.01"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos o totalizador de Horas falta repouso, na exportação do relatório de produtividade, para exibir corretamente a soma das horas falta repouso.",
+            "id": 80158,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-03-03T11:03:20.784Z",
+            "title": "RELATÓRIO DE PRODUTIVIDADE",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-5032",
+            "versions": "2025.03.01"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Implementamos o total por tipo de diária ao imprimir o cartão ponto, deixando as informações de diárias mais completas.",
+            "id": 80265,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-03-03T11:03:20.3Z",
+            "title": "CARTÃO PONTO",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4957",
+            "versions": "2025.03.01"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Implementamos melhorias dentro do relatório de produtividade sendo elas novas colunas/totalizadores e novo tipo de filtro de tipo de dia.",
+            "id": 80280,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-26T17:06:09.632Z",
+            "title": "RELATÓRIO DE PRODUTIVIDADE",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4826",
+            "versions": "2025.02.06"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos o pop up de afastamentos para exibir apenas afastamentos lançados dentro do período de ativação do motorista para a empresa em questão",
+            "id": 80260,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-26T17:05:40.901Z",
+            "title": "AFASTAMENTOS",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4977",
+            "versions": "2025.02.06"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos a alteração de eventos para fechar corretamente eventos em aberto após receber alterações.",
+            "id": 80160,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-24T17:52:49.505Z",
+            "title": "API MOBILE",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-5016",
+            "versions": "2025.02.05"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos uma inconsistência ao excluir configurações de macros, onde retornava status 500 e não permitia a ação.",
+            "id": 80267,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-24T17:52:46.517Z",
+            "title": "EMPRESAS JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4938",
+            "versions": "2025.02.05"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Implementamos a possibilidade de exportar em excel as macros presentes no histórico de macros da jornada 2.0",
+            "id": 80264,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-24T17:52:41.889Z",
+            "title": "HISTÓRICO DE MACROS",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4960",
+            "versions": "2025.02.05"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Implementamos a possibilidade de bloquear/desbloquear jornadas isoladas dentro da manutenção da jornada.",
+            "id": 80284,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-24T17:52:40.497Z",
+            "title": "MANUTENÇÃO DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4821",
+            "versions": "2025.02.05"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Implementamos uma validação na exportação AEJ para considerar o período de ativação dos motoristas a empresa em questão.",
+            "id": 80262,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-24T17:52:38.571Z",
+            "title": "EXPORTAÇÃO FISCAL",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4969",
+            "versions": "2025.02.05"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos a exibição de algumas jornadas onde não retornava informações no grid da manutenção de jornada",
+            "id": 80162,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-24T17:52:25.386Z",
+            "title": "MANUTENÇÃO DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4983",
+            "versions": "2025.02.05"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos o tempo de espera de respostas da API de avisos para não cousar mais lentidões no sistema.",
+            "id": 80261,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-18T17:16:36.443Z",
+            "title": "SISTEMA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4970",
+            "versions": "2025.02.04"
+        },
+        {
+            "classification": "Novidade",
+            "content": "Adicionamos um novo indicador 'Sem jornada após DSR', onde exibirá os motoristas que não tiveram eventos diferentes de repouso após um DSR.",
+            "id": 80281,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-17T11:56:45.487Z",
+            "title": "DASHBOARD",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4825",
+            "versions": "2025.02.03"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Implementamos a funcionalidade de compartilhar observações dos indicadores, onde antes era separado por usuário.",
+            "id": 80282,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-17T11:56:45.315Z",
+            "title": "DASHBOARD",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4824",
+            "versions": "2025.02.03"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos o endpoint de alteração de jornadas para considerar payloads com eventos em branco, abrindo corretamento o pop up de alteração dentro do sistema.",
+            "id": 80263,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-17T11:56:44.938Z",
+            "title": "API MOBILE",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4963",
+            "versions": "2025.02.03"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Implementamos a exibição do tempo total do evento diretamente na timeline do controle de jornada, sem a necessidade se entrar na manutenção da jornada.",
+            "id": 80253,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-17T11:56:44.403Z",
+            "title": "CONTROLE DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-3527",
+            "versions": "2025.02.03"
+        },
+        {
+            "classification": "Correção",
+            "content": "Implementamos a possibilidade de continuar gerando evento de alvo após ultrapassar o tempo da faixa/tempo limite para alvos de controle de balsas",
+            "id": 80268,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-14T11:58:52.466Z",
+            "title": "EMPRESAS JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4937",
+            "versions": "2025.02.02"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos a exibição de início e fim das jornadas para considerar corretamente os repousos do dia.",
+            "id": 80269,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-14T11:58:52.207Z",
+            "title": "MANUTENÇÃO DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4928",
+            "versions": "2025.02.02"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos e melhoramos a geração do arquivo marcação senior, disponível agora na tela de exportação fiscal.",
+            "id": 80271,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-14T11:58:51.601Z",
+            "title": "CARTÃO PONTO - EXPORTAÇÃO FISCAL",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4889",
+            "versions": "2025.02.02"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Adicionamos a nova coluna 'CPF' no relatório de eventos disponível no seletor de colunas.",
+            "id": 80274,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-05T17:09:28.538Z",
+            "title": "RELATÓRIO DE EVENTOS",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4881",
+            "versions": "2025.02.01"
+        },
+        {
+            "classification": "Correção",
+            "content": "Implementamos melhorias nas validações de geração automática de diárias, impossibilitando a geração duplicada de diárias para os motoristas.",
+            "id": 80272,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-05T17:09:28.417Z",
+            "title": "MANUTENÇÃO DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4886",
+            "versions": "2025.02.01"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos o reprocesso de associações para bloquear reprocessos com períodos bloqueados, ignorando as jornadas ou bloqueando o reprocesso dos mesmos.",
+            "id": 80207,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-05T17:09:27.976Z",
+            "title": "ASSOCIAÇÕES",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4522",
+            "versions": "2025.02.01"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Implementamos a possibilidade do usuário escolher o que deve ser apurado no processo de apuração em massa, tornando o mesmo mais eficiente, evitando apuração desnecessárias.",
+            "id": 80301,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-05T17:09:27.79Z",
+            "title": "APURAÇÃO EM MASSA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4769",
+            "versions": "2025.02.01"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos o reprocesso de associações mantendo eventos manuais para que calcule corretamente eventos com sobreposições ajustadas automaticamente pelo sistema.",
+            "id": 80275,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-05T17:09:27.378Z",
+            "title": "MANUTENÇÃO DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4857",
+            "versions": "2025.02.01"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Adicionamos a possibilidade de selecionar qual evento gerará o alvo de balsas, sendo eles o evento de descanso e o de parado em jornada, configurado através do cadastro de alvos.",
+            "id": 80273,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-02-05T17:09:26.846Z",
+            "title": "EMPRESAS JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4882",
+            "versions": "2025.02.01"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Implementamos a funcionalidade de resolver observações pendentes.",
+            "id": 80288,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-28T11:30:51.945Z",
+            "title": "DASHBOARDS",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4798",
+            "versions": "2025.01.07"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Implementamos a funcionalidade de gerar os documentos dos afastamentos ao gerar arquivos para assinatura eletrônica.",
+            "id": 80181,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-28T11:30:51.851Z",
+            "title": "ASSINATURA ELETRÔNICA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4613",
+            "versions": "2025.01.07"
+        },
+        {
+            "classification": "Novidade",
+            "content": "Implementamos novo edpoint para inserção/exclusão de afastamentos nas jornadas dos motoristas.",
+            "id": 80167,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-28T11:30:51.661Z",
+            "title": "API EXTERNA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4661",
+            "versions": "2025.01.07"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Implementamos a funcionalidade para um afastamento gerar horas falta para o dia lançado atuando como uma 'falta injustificada', exibindo no totalizador de horas falta.",
+            "id": 80291,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-28T11:30:51.054Z",
+            "title": "CARTÃO PONTO",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4792",
+            "versions": "2025.01.07"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Implementamos a possibilidade de exportar o cartão ponto para motoristas específicos, onde anteriormente só era possível para a filial ou escala.",
+            "id": 80283,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-28T11:30:50.841Z",
+            "title": "CARTÃO PONTO",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4822",
+            "versions": "2025.01.07"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos a exibição da placa associada no cartão ponto em jornadas alteradas pelo aplicativo, onde não estavam sendo exibidas corretamente.",
+            "id": 80276,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-28T11:30:50.65Z",
+            "title": "CARTÃO PONTO",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4851",
+            "versions": "2025.01.07"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Realizamos melhorias no recalculo de não conformidades, adicionamos uma mensagem de aviso no pop up e melhoramos as notificações retornadas após o sucesso, melhorando a experiência do usuário.",
+            "id": 80294,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-23T10:56:42.632Z",
+            "title": "NÃO CONFORMIDADES",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4786",
+            "versions": "2025.01.06"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Adicionamos a possibilidade de adicionar informações de telefone do motorista, sendo visível através do controle da jornada pela coluna 'Telefone' encontrada no seletor de colunas.",
+            "id": 80289,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-23T10:56:42.534Z",
+            "title": "CONTROLE DA JORNADA - MOTORISTAS JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4796",
+            "versions": "2025.01.06"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos divergência nas horas trabalhadas exibidas no aplicativo devido a eventos de repouso em aberto que ultrapassavam a meia noite.",
+            "id": 80278,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-23T10:56:42.193Z",
+            "title": "API MOBILE",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4836",
+            "versions": "2025.01.06"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Implementamos a funcionalidade de editar/excluir registros manualmente cadastrado no banco de horas, apurando automaticamente após as alterações.",
+            "id": 80325,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-23T10:56:42.006Z",
+            "title": "BANCO DE HORAS",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4702",
+            "versions": "2025.01.06"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos a geração de eventos de refeição por geolocalização, onde não estavam gerando corretamente devido ao tempo mímino do mesmo.",
+            "id": 80279,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-23T10:56:41.763Z",
+            "title": "MANUTENÇÃO DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4835",
+            "versions": "2025.01.06"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Implementamos a funcionalidade de consultar a jornada original antes de realizar o processo para voltá-la para a mesma.",
+            "id": 80304,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-23T10:56:41.565Z",
+            "title": "MANUTENÇÃO DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4762",
+            "versions": "2025.01.06"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Adicionamos dois novos campos no retorno da api de veículos, agora tendo disponíveis também as informações de latitude e longitude da última posição",
+            "id": 80298,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-20T11:32:19.558Z",
+            "title": "API EXTERNA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4778",
+            "versions": "2025.01.05"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos a coluna evento atual no grid do controle da jornada, onde não atualizava os eventos após ser lançado e finalizado afastamentos.",
+            "id": 80296,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-20T11:32:19.305Z",
+            "title": "CONTROLE DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4783",
+            "versions": "2025.01.05"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos o consumidor de processamento de associações onde retornava alertas devido a eventos que não existiam mais.",
+            "id": 80285,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-20T11:32:19.098Z",
+            "title": "CONSUMIDOR PROCESSAMENTO",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4816",
+            "versions": "2025.01.05"
+        },
+        {
+            "classification": "Novidade",
+            "content": "Adicionamos um novo indicador, ‘Em jornada sem associação’, onde monitora motoristas com jornadas/eventos em aberto sem estar com uma associação em andamento.",
+            "id": 80330,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-20T11:32:18.877Z",
+            "title": "DASHBOARDS",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4679",
+            "versions": "2025.01.05"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos os filtros em linha do cartão ponto sintético para retornar corretamente os dados informados.",
+            "id": 80311,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-15T11:34:54.173Z",
+            "title": "CARTÃO PONTO SINTÉTICO (NOVO)",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4741",
+            "versions": "2025.01.04"
+        },
+        {
+            "classification": "Correção",
+            "content": "Realizamos alterações no histórico de cidade base para listar automaticamente os registros ao abrir o pop-up e melhoramos o filtro de motoristas possibilitando digitar o motorista desejado.",
+            "id": 80286,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-15T11:34:53.954Z",
+            "title": "HISTÓRICO DE CIDADES BASE",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4806",
+            "versions": "2025.01.04"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos a exclusão de associações mobile para remover corretamente os registros no banco de dados, evitando inconsistências ao re-associar o motorista.",
+            "id": 80287,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-15T11:34:53.754Z",
+            "title": "ASSOCIAÇÕES",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4802",
+            "versions": "2025.01.04"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos as alterações de jornadas com eventos abertos que ultrapassam a quebra da meia noite para gerar corretamente até o proximo evento lançado e não sobrepor nenhum evento.",
+            "id": 80292,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-15T11:34:53.561Z",
+            "title": "MANUTENÇÃO DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4789",
+            "versions": "2025.01.04"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos o serviço de inclusão de feriados para registrar corretamente os feriados de 2025.",
+            "id": 80293,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-13T11:32:19.448Z",
+            "title": "EMPRESAS JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4788",
+            "versions": "2025.01.03"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Ajustamos a regra do totalizador de saldo de horas anterior do modelo Toliman, para que nos primeiros meses da vigência do banco de horas não considere o mês anterior, pois é de uma vigencia diferente.",
+            "id": 80290,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-13T11:32:19.309Z",
+            "title": "CARTÃO PONTO",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4795",
+            "versions": "2025.01.03"
+        },
+        {
+            "classification": "Correção",
+            "content": "Realizamos ajustes na regra do reprocesso em massa de associações, onde não reprocessava corretamente as jornadas dos motoristas, gerando apenas eventos recentes.",
+            "id": 80295,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-13T11:32:19.064Z",
+            "title": "REPROCESSAR ASSOCIAÇÕES",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4785",
+            "versions": "2025.01.03"
+        },
+        {
+            "classification": "Novidade",
+            "content": "Retirado pop up para aviso de manutenção no sistema adicionado recentemente.",
+            "id": 80299,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-13T11:32:18.83Z",
+            "title": "POP-UP AJUSTES",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4773",
+            "versions": "2025.01.03"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos a manutenção da jornada para exibir 'Alteração APP' na origem dos eventos alterados via aplicativo.",
+            "id": 80302,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-13T11:32:18.595Z",
+            "title": "MANUTENÇÃO DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4766",
+            "versions": "2025.01.03"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos uma inconsistência na criação de eventos com a data/hora inicial e final iguais a outras macros.",
+            "id": 80297,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-13T11:32:18.42Z",
+            "title": "MANUTENÇÃO DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4780",
+            "versions": "2025.01.03"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos o cálculo do banco de horas para cartões pontos por período, onde não inseria/calculava corretamente.",
+            "id": 80300,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-13T11:32:18.244Z",
+            "title": "CARTÃO PONTO",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4772",
+            "versions": "2025.01.03"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos o relatório de não conformidade para não exibir registros excluidos, onde estava retornando os excluidos manualmente através da manutenção de jornada.",
+            "id": 80307,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-08T16:43:16.132Z",
+            "title": "RELATÓRIO DE NÃO CONFORMIDADES",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4757",
+            "versions": "2025.01.01"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos a alteração em massa de alvos, onde retornava status 422 e não realizava as alterações corretamente.",
+            "id": 80303,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-07T11:10:37.529Z",
+            "title": "EMPRESAS JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4763",
+            "versions": "2025.01.02"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Ajustamos a regra de jornada com eventos em alvos como eventos, para considerar os alvos de balsas.",
+            "id": 80313,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-07T11:10:36.033Z",
+            "title": "MANUTENÇÃO DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4734",
+            "versions": "2025.01.02"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos o processo de associação de motoristas, onde devido aos segundos nas datas/horas em registros, retornava um alerta e não realizava a associação.",
+            "id": 80308,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-06T16:50:47.222Z",
+            "title": "ASSOCIAÇÕES",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4752",
+            "versions": "2025.01.01"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos a geração de eventos em alvos em casos onde não havia registros no dia da entrada do alvo",
+            "id": 80309,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-06T16:50:47.082Z",
+            "title": "MANUTENÇÃO DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4749",
+            "versions": "2025.01.01"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos a quebra de eventos à meia-noite, que estava gerando eventos com datas divergentes da jornada em questão.",
+            "id": 80310,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-06T16:50:46.94Z",
+            "title": "MANUTENÇÃO DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4747",
+            "versions": "2025.01.01"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos a exibição do relatório de alterações via mobile, onde retornava status 500 devido a alterações sem data final informada.",
+            "id": 80305,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-06T16:50:46.619Z",
+            "title": "RELATÓRIO DE ALTERAÇÕES VIA MOBILE",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4760",
+            "versions": "2025.01.01"
+        },
+        {
+            "classification": "Correção",
+            "content": "Implementado validação para ignorar eventos que contém a mesma data/hora de início e fim no processo de alterações de eventos via mobile.",
+            "id": 80306,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-06T16:50:46.427Z",
+            "title": "API MOBILE",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4759",
+            "versions": "2025.01.01"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos a exibição do total de diárias na impressão do cartão ponto, onde retornava 'undefined' caso controlado diárias por APP.",
+            "id": 80312,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2025-01-06T16:50:46.268Z",
+            "title": "CARTÃO PONTO",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4737",
+            "versions": "2025.01.01"
+        },
+        {
+            "classification": "Novidade",
+            "content": "Implementamos a funcionalidade de limitar/converter eventos para a jornada 2.0",
+            "id": 80218,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-23T11:17:41.725Z",
+            "title": "MANUTENÇÃO DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4487",
+            "versions": "2024.12.11"
+        },
+        {
+            "classification": "Correção",
+            "content": "Identificamos e ajustamos uma inconsistência ao cadastrar novas escalas, onde retornava status 500 devido a ativação estar retornando em branco",
+            "id": 80314,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-23T11:17:41.55Z",
+            "title": "EMPRESAS JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4733",
+            "versions": "2024.12.11"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos inconsistência no relatório de eventos onde retornava status 500 devido ai formato das horas totais.",
+            "id": 80315,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-20T13:07:26.726Z",
+            "title": "RELATÓRIO DE EVENTOS",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4729",
+            "versions": "2024.12.11"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos o envio das horas para banco de horas, onde estava errôneamente enviando para banco horas não configuradas na empresa.",
+            "id": 80329,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-20T13:07:26.622Z",
+            "title": "MANUTENÇÃO DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4681",
+            "versions": "2024.12.11"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Melhoramos o retorno do endpoint das jornadas que integra com o sistema LOG, para retornar corretamente o tempo de jornada do motorista selecionado.",
+            "id": 80231,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-20T13:07:26.411Z",
+            "title": "API LOG",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4454",
+            "versions": "2024.12.11"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Ajustamos e melhoramos algumas questões no processo/reprocesso das jornadas para facilitar a migração dos clientes para a jornada2.0",
+            "id": 80168,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-20T13:07:26.203Z",
+            "title": "ASSOCIAÇÕES - EMPRESAS JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4657",
+            "versions": "2024.12.11"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos a regra para gerar associações via macros na jornada 2.0 para motoristas configurados como mobile eventos.",
+            "id": 80316,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-19T20:44:19.136Z",
+            "title": "ASSOCIAÇÕES",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4728",
+            "versions": "2024.12.10"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos a anomalia de excesso de velocidade sem associação onde gerava para associações com data final e data de início no mesmo minuto.",
+            "id": 80317,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-19T11:06:39.867Z",
+            "title": "RELATÓRIO DE ANOMALIAS",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4723",
+            "versions": "2024.12.10"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Implementamos a funcionalidade de exportar o saldo do banco de horas do motorista caso a escala controle banco de horas.",
+            "id": 80324,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-19T11:06:39.78Z",
+            "title": "CARTÃO PONTO",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4707",
+            "versions": "2024.12.10"
+        },
+        {
+            "classification": "Novidade",
+            "content": "Implementamos a possibilidade de parametrizar as excessões das jornadas, configurável na escala da empresa.",
+            "id": 80244,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-19T11:06:39.621Z",
+            "title": "EMPRESAS JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4320",
+            "versions": "2024.12.10"
+        },
+        {
+            "classification": "Novidade",
+            "content": "Adicionamos uma nova anomalia para quando recebermos uma macro com data inicial anterior a ultima macro da jornada, configurada como 'macro retroativa'.",
+            "id": 80246,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-19T11:06:39.474Z",
+            "title": "RELATÓRIO DE ANOMALIAS",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4264",
+            "versions": "2024.12.10"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos endpoint da assinatura eletrônica para considerar também valores numéricos e não texto nos campos latitude e longitude.",
+            "id": 80318,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-19T11:06:39.326Z",
+            "title": "API MOBILE",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4716",
+            "versions": "2024.12.10"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Implementamos uma melhoria no cartão ponto por período, onde agora é configurável nas horas cartão ponto e separado por escala.",
+            "id": 80191,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-19T11:06:39.151Z",
+            "title": "EMPRESAS JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4589",
+            "versions": "2024.12.10"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos inconsistência na quebra de eventos, onde acabava fechando para o dia posterior, afetando a exibição das horas no cartão ponto.",
+            "id": 80323,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-18T14:26:32.343Z",
+            "title": "CARTÃO PONTO",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4708",
+            "versions": "2024.12.09"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos dois endpoint na API do aplicativo que retornavam status 500.",
+            "id": 80319,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-18T13:36:20.894Z",
+            "title": "API MOBILE",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4714",
+            "versions": "2024.12.09"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos inconsistência no relatório de produtividade onde retornava status 500 ao gerar o mesmo no sistema e na API externa",
+            "id": 80321,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-18T13:36:20.778Z",
+            "title": "RELATÓRIO DE PRODUTIVIDADE",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4711",
+            "versions": "2024.12.09"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos regra de remoção do último evento para funcionar corretamente.",
+            "id": 80320,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-18T13:36:20.655Z",
+            "title": "MANUTENÇÃO DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4712",
+            "versions": "2024.12.09"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos inconsistência na assinatura eletrônica onde enviava a latitude e longitude no formato incorreto.",
+            "id": 80322,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-18T13:36:20.55Z",
+            "title": "ASSINATURA ELETRÔNICA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4710",
+            "versions": "2024.12.09"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Implementamos a possibilidade de vincular um dashboard a uma escala específica, facilitando a visualização separadamente.",
+            "id": 80226,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-18T11:38:03.913Z",
+            "title": "DASHBOARDS",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4471",
+            "versions": "2024.12.09"
+        },
+        {
+            "classification": "Novidade",
+            "content": "Implementamos a funcionalidade de recalcular as não conformidades em um período especificado.",
+            "id": 80163,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-18T11:38:03.703Z",
+            "title": "NÃO CONFORMIDADES",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4678",
+            "versions": "2024.12.09"
+        },
+        {
+            "classification": "Novidade",
+            "content": "Implementamos um novo endpoint na API externa onde retorna as anomalias da empresa.",
+            "id": 80164,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-18T11:38:03.461Z",
+            "title": "API EXTERNA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4676",
+            "versions": "2024.12.09"
+        },
+        {
+            "classification": "Novidade",
+            "content": "Implementamos a funcionalidade de gerar anomalias de excesso de velocidade quando veículo recebe posições em um período sem associação.",
+            "id": 80165,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-18T11:38:03.174Z",
+            "title": "RELATÓRIO DE ANOMALIAS",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4675",
+            "versions": "2024.12.09"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos a validação para fechar e excluir eventos após associação ser finalizada",
+            "id": 80228,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-18T11:38:02.648Z",
+            "title": "MANUTENÇÃO DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4467",
+            "versions": "2024.12.09"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Ajustamos a regra de geração de diárias para não considerar posições que não possuem cidade base vinculada (Sem referências próximas)",
+            "id": 80210,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-18T11:38:02.478Z",
+            "title": "DIÁRIAS",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4511",
+            "versions": "2024.12.09"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Ajustamos o relatório de afastamentos para se adequar ao padrão atual do sistema.",
+            "id": 80223,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-18T11:38:02.37Z",
+            "title": "RELATÓRIO DE AFASTAMENTOS",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4477",
+            "versions": "2024.12.09"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Adicionamos alguns totalizadores no endpoint do relatório de produtividade, permitindo ter uma visão mais completa da produtividade do motorista durante o período.",
+            "id": 80217,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-18T11:38:02.212Z",
+            "title": "API EXTERNA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4488",
+            "versions": "2024.12.09"
+        },
+        {
+            "classification": "Correção",
+            "content": "Realizamos ajustes e melhorias para otimizar a exportação para PDF do relatório de não conformidades.",
+            "id": 80328,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-18T11:38:01.845Z",
+            "title": "RELATÓRIO DE NÃO CONFORMIDADE",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4691",
+            "versions": "2024.12.09"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos inconsistências na geração de eventos devido aos segundos na data final das associações.",
+            "id": 80327,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-18T11:38:01.667Z",
+            "title": "ASSOCIAÇÕES",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4696",
+            "versions": "2024.12.09"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Implementamos a possibilidade de configurar o tipo de quebra de linha dos layouts de exportações, optando entre CRLF ou LF (Windows ou Linux)",
+            "id": 80190,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-18T11:38:01.509Z",
+            "title": "EMPRESAS JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4590",
+            "versions": "2024.12.09"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Ajustamos o relatório de produtividade no sistema e no endpoint da API para considerar as horas noturnas reduzidas quando há um afastamento com eventos de atividade.",
+            "id": 80220,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-18T11:38:01.06Z",
+            "title": "RELATÓRIO DE PRODUTIVIDADE - API EXTERNA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4482",
+            "versions": "2024.12.09"
+        },
+        {
+            "classification": "Novidade",
+            "content": "Adicionamos o botão 'Novidades' no sistema, onde irá direcionar para as notas das atualizações realizadas no sistema.",
+            "id": 80170,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-17T11:09:48.814Z",
+            "title": "NOVIDADES",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4652",
+            "versions": "2024.12.08"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos a validação das macros vindas com motorista vinculado, para considerar apenas se o motorista é da mesma empresa que o veículo da macro.",
+            "id": 80187,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-17T11:09:48.754Z",
+            "title": "MANUTENÇÃO DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4598",
+            "versions": "2024.12.08"
+        },
+        {
+            "classification": "Melhoria",
+            "content": "Implementamos um novo endpoint na API externa onde retorna informações dos veículos ativos na empresa.",
+            "id": 80166,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-17T11:09:48.597Z",
+            "title": "API EXTERNA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4662",
+            "versions": "2024.12.08"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos uma inconsistência na jornada 2.0 onde o processo e reprocesso de associações não estavam considerando o último evento quando enviado várias macros no mesmo minuto.",
+            "id": 80169,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-17T11:09:48.439Z",
+            "title": "ASSOCIAÇÕES - MANUTENÇÃO DA JORNADA",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4655",
+            "versions": "2024.12.08"
+        },
+        {
+            "classification": "Correção",
+            "content": "Ajustamos o histórico de macros da jornada 2.0, onde trazia placas inativas no filtro de veículo.",
+            "id": 80174,
+            "product_name": "JOR 4.0",
+            "resolution_date": "2024-12-17T11:09:48.322Z",
+            "title": "HISTÓRICO DE MACROS",
+            "url": "https://rastergr.atlassian.net/browse/JOR4-4647",
+            "versions": "2024.12.08"
+        }
+    ]
+}
