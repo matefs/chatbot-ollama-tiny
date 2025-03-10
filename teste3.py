@@ -9,6 +9,32 @@ from langchain_community.document_loaders import JSONLoader
 import os
 from pathlib import Path
 
+# Configuração da página
+st.set_page_config(page_title="Assistente de Jornada - E-ponto", layout="wide")
+
+# Inicialização do estado de autenticação
+if "authenticated" not in st.session_state:
+    st.session_state["authenticated"] = False
+
+# Credenciais
+USERNAME = "admin"
+PASSWORD = "1234"
+
+# Tela de login
+if not st.session_state["authenticated"]:
+    st.title("Login - Assistente de Jornada")
+    username = st.text_input("Usuário")
+    password = st.text_input("Senha", type="password")
+    
+    if st.button("Entrar"):
+        if username == USERNAME and password == PASSWORD:
+            st.session_state["authenticated"] = True
+            st.rerun()
+        else:
+            st.error("Usuário ou senha incorretos!")
+    st.stop()
+
+# O resto do código só será executado se estiver autenticado
 # Configuração do prompt e do modelo
 rag_template = """
 Você é um atendente de uma empresa. Seu trabalho é conversar com os clientes, consultando a base de conhecimentos da empresa, e dar uma resposta simples e precisa para ele, baseada na base de dados da empresa fornecida como contexto. Considere o "resolution_date" como a data de atualização da informação.
@@ -17,7 +43,7 @@ Pergunta do cliente: {question}
 """
 
 # Carregar o modelo local (Ollama)
-ollama_server_url = "http://localhost:11434"  # IP configurado para localhost
+ollama_server_url = "http://localhost:11434"
 model_local = ChatOllama(base_url=ollama_server_url, model="llama3")
 
 # Função para carregar a base de conhecimento
@@ -59,13 +85,19 @@ def chatbot_response(question):
     response = model_local.predict(final_prompt, **model_kwargs)
     return response
 
-# Interface no Streamlit
-st.title(" Assistente de Jornada - E-ponto")
+# Interface principal do chat
+st.title("Assistente de Jornada - E-ponto")
+
+# Botão de logout na sidebar
+if st.sidebar.button("Sair"):
+    st.session_state["authenticated"] = False
+    st.rerun()
 
 # Input da pergunta do cliente
 question = st.text_input("Digite sua pergunta:")
 
 # Geração da resposta
 if question:
-    resposta = chatbot_response(question)
+    with st.spinner("Processando sua pergunta..."):
+        resposta = chatbot_response(question)
     st.write(resposta)
